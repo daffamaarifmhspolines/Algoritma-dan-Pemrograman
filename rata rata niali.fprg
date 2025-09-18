@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="rata rata niali"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-18 03:15:30 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswMzowMToyMiBQTTsyNzEz"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswMzoxNTozMCBQTTsxOzI4MjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nilai" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan rata-rata nilai anda:&quot;" newline="True"/>
+            <input variable="nilai"/>
+            <if expression="nilai &gt;= 60">
+                <then>
+                    <output expression="&quot;Selamat, anda lulus!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Maaf, anda tidak lulus&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

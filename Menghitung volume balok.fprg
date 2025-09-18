@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Menghitung volume balok"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-18 02:24:26 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswMjowODo1MSBQTTsyNzIx"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswMjoyNDoyNiBQTTsxOzI4Mjk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="V, p, l, t" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Panjang :&quot;" newline="True"/>
+            <input variable="p"/>
+            <output expression="&quot;Masukkan Lebar :&quot;" newline="True"/>
+            <input variable="l"/>
+            <output expression="&quot;Masukkan Tinggi :&quot;" newline="True"/>
+            <input variable="t"/>
+            <assign variable="V" expression="p * l * t"/>
+            <output expression="&quot;Volume = &quot; &amp; V" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

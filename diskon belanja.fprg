@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="diskon belanja"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-18 07:05:17 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswMzoxNTozMyBQTTsyNzIw"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswNzowNToxNyBQTTszOzI4MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="tb, th" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan harga total belanjaan anda:&quot;" newline="True"/>
+            <input variable="tb"/>
+            <if expression="tb &gt;= 500000">
+                <then>
+                    <assign variable="th" expression="tb * 80/100"/>
+                </then>
+                <else>
+                    <if expression="tb &gt;= 250000">
+                        <then>
+                            <assign variable="th" expression="tb * 90/100"/>
+                        </then>
+                        <else>
+                            <assign variable="th" expression="tb"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Total yang harus anda bayar = &quot; &amp; th" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

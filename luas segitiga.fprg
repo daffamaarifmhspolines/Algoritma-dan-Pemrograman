@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="luas segitiga"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-18 11:52:56 AM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODsxMToxODoyOCBBTTsyNzEx"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODsxMTo1Mjo1NiBBTTsxOzI4MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, s, luas" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <input variable="c"/>
+            <assign variable="s" expression="(a + b + c) / 2"/>
+            <assign variable="luas" expression="sqrt(s * (s - a) * (s - b) * (s - c))"/>
+            <output expression="&quot;luas = &quot; &amp; luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

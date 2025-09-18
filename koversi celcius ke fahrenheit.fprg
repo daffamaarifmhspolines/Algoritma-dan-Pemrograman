@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="koversi celcius ke fahrenheit"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-18 02:08:47 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODsxMTo1MzowMiBBTTsyNzAy"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswMjowODo0NyBQTTsyOzI4MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="C, F" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan suhu dalam Celcius&quot;" newline="True"/>
+            <input variable="C"/>
+            <assign variable="F" expression="(C * 9/5) + 32"/>
+            <output expression="&quot;Dalam Fahrenheit adalah &quot; &amp; F" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Konversi detik ke jam menit detik"/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-18 03:00:57 PM"/>
+        <attribute name="created" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswMjoyNDozNyBQTTsyNzIz"/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLTgzNEFQMlI7MjAyNS0wOS0xODswMzowMDo1NyBQTTsxOzI4Mjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="td, sd, j, m, d" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan total waktu dalam detik: &quot;" newline="True"/>
+            <input variable="td"/>
+            <assign variable="j" expression="td / 3600"/>
+            <assign variable="sd" expression="td % 3600"/>
+            <assign variable="m" expression="sd /60"/>
+            <assign variable="d" expression="sd % 60"/>
+            <output expression="td &amp; &quot; sama dengan:&quot;" newline="True"/>
+            <output expression="j &amp; &quot; Jam, &quot; &amp; m &amp; &quot; menit, &quot; &amp; d &amp; &quot; detik&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
